@@ -1,4 +1,4 @@
-#Barelang FC Sim
+# Barelang FC Sim 
 mkdir barelangfc\
 cd barelangfc\
 mkdir src\
@@ -10,4 +10,4 @@ git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Math.git \
 git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Utility.git \
 cd .. \
 catkin_make \
-source devel/setup.bash \
+source devel/setup.bash 
