@@ -17,4 +17,5 @@ roslaunch humanoid_gazebo humanoid_gazebo.launch \
 roslaunch humanoid_manager humanoid_gazebo.launch
 
 # File Part
+full body location : Adult Size\Assy fix\Assy_Leg.SLDASM \
 https://drive.google.com/file/d/1JB6ATBQTLTad41ta_7nGuA0eSaegAw7J/view?usp=sharing
