@@ -16,3 +16,5 @@ source devel/setup.bash
 roslaunch humanoid_gazebo humanoid_gazebo.launch \
 roslaunch humanoid_manager humanoid_gazebo.launch
 
+# File Part
+https://drive.google.com/file/d/1JB6ATBQTLTad41ta_7nGuA0eSaegAw7J/view?usp=sharing
