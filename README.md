@@ -1,12 +1,8 @@
 # barelangfc-sim
 mkdir barelangfc-sim
-
 cd barelangfc-sim
-
 mkdir src
-
 cd src
-
 git clone -b noetic-devel https://github.com/ROBOTIS-GIT/DynamixelSDK.git
 git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Framework.git
 git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Framework-msgs.git
