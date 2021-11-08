@@ -11,3 +11,8 @@ git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Utility.git \
 cd .. \
 catkin_make \
 source devel/setup.bash 
+
+# Running SIM
+roslaunch humanoid_gazebo humanoid_gazebo.launch \
+roslaunch humanoid_manager humanoid_gazebo.launch
+
