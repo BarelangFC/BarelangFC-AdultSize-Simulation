@@ -1,4 +1,7 @@
-# Barelang FC Sim 
+# Barelang FC Sim
+
+**Setup Workspace**
+```bash
 mkdir barelangfc\
 cd barelangfc\
 mkdir src\
@@ -11,11 +14,15 @@ git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Utility.git \
 cd .. \
 catkin_make \
 source devel/setup.bash 
+```
 
-# Running SIM
+**Running Simulation**
+```bash
 roslaunch humanoid_gazebo humanoid_gazebo.launch \
 roslaunch humanoid_manager humanoid_gazebo.launch
+```
 
-# File Part
+**Link Part Files**
+
 full body location : Adult Size\Assy fix\Assy_Leg.SLDASM \
 https://drive.google.com/file/d/1JB6ATBQTLTad41ta_7nGuA0eSaegAw7J/view?usp=sharing
