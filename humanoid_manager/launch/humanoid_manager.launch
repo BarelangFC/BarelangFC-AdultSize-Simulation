@@ -4,7 +4,7 @@
     <param name="gazebo_robot_name"        value="humanoid"/>
     
     <!-- <param name="offset_file_path"         value="$(find op3_tuning_module)/data/offset.yaml"/> -->
-    <param name="robot_file_path"          value="$(find humnoaid_manager)/config/barelangfc.robot"/>
+    <param name="robot_file_path"          value="$(find humanoid_manager)/config/barelangfc.robot"/>
     <param name="init_file_path"           value="$(find humanoid_manager)/config/dxl_init_barelangfc.yaml"/>
     <param name="device_name"              value="/dev/ttyUSB0"/>
     
