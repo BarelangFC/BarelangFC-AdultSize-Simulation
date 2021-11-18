@@ -1,6 +1,16 @@
-# Barelang FC Sim
+# BarelangFC AdultSize Gazebo Simulation Model
 
 **Setup Workspace**
+
+Install dependencies
+
+```bash
+sudo apt install ros-noetic-control
+sudo apt install ros-noetic-ros-control
+sudo apt install ros-noetic-ros-controllers
+```
+
+Clone simulation package
 
 ```bash
 cd ~
@@ -11,6 +21,7 @@ git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Framework.git
 git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Framework-msgs.git
 git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Math.git
 git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Utility.git
+git clone https://github.com/BarelangFC/BarelangFC-AdultSize-Simulation.git
 cd ..
 catkin_make
 source devel/setup.bash 
