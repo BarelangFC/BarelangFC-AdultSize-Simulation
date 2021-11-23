@@ -21,6 +21,7 @@ git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Framework.git
 git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Framework-msgs.git
 git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Math.git
 git clone https://github.com/ROBOTIS-GIT/ROBOTIS-Utility.git
+git clone https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins.git
 git clone https://github.com/BarelangFC/BarelangFC-AdultSize-Simulation.git
 cd ..
 catkin_make
