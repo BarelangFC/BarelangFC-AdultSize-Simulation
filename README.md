@@ -40,18 +40,18 @@ roslaunch humanoid_manager humanoid_gazebo.launch
 ```bash
 rostopic pub /robotis/set_joint_states sensor_msgs/JointState
 ```
-after paste press tab twice, then will showing like this:
-rostopic pub /robotis/set_joint_states sensor_msgs/JointState "header:
-  seq: 0
-  stamp: {secs: 0, nsecs: 0}
-  frame_id: ''
-name: ['']
-position: [0]
-velocity: [0]
-effort: [0]"
-desc:
-name (name of the joint to be moved)
-position (motion position of the joint to be moved)
+after paste press tab twice, then will showing like this: \
+rostopic pub /robotis/set_joint_states sensor_msgs/JointState "header:\
+  seq: 0\
+  stamp: {secs: 0, nsecs: 0}\
+  frame_id: ''\
+name: ['']\
+position: [0]\
+velocity: [0]\
+effort: [0]"\
+desc:\
+name (name of the joint to be moved)\
+position (motion position of the joint to be moved)\
 
 **Link Part Files**
 
