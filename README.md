@@ -42,9 +42,9 @@ rostopic pub /robotis/set_joint_states sensor_msgs/JointState
 ```
 after paste press tab twice, then will showing like this: \
 rostopic pub /robotis/set_joint_states sensor_msgs/JointState "header:\
- seq: 0\
-stamp: {secs: 0, nsecs: 0}\
-frame_id: ''\
+&nbsp;seq: 0\
+&nbsp;stamp: {secs: 0, nsecs: 0}\
+&nbsp;frame_id: ''\
 name: ['']\
 position: [0]\
 velocity: [0]\
