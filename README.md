@@ -5,7 +5,6 @@
 Install dependencies
 
 ```bash
-sudo apt install ros-noetic-control
 sudo apt install ros-noetic-ros-control
 sudo apt install ros-noetic-ros-controllers
 ```
@@ -31,27 +30,22 @@ source devel/setup.bash
 **Running Simulation**
 
 ```bash
-roslaunch humanoid_gazebo humanoid_gazebo.launch
 roslaunch humanoid_manager humanoid_gazebo.launch
+roslaunch humanoid_gazebo humanoid_gazebo.launch
 ```
 
 **Moving Joint**
-
+Example command for moving head pan joint
 ```bash
-rostopic pub /robotis/set_joint_states sensor_msgs/JointState
+rostopic pub /robotis/set_joint_states sensor_msgs/JointState "header:
+  seq: 0
+  stamp: {secs: 0, nsecs: 0}
+  frame_id: ''
+name: ['head_pan']
+position: [1]
+velocity: [0]
+effort: [0]" 
 ```
-after paste press tab twice, then will showing like this: \
-rostopic pub /robotis/set_joint_states sensor_msgs/JointState "header:\
-&nbsp;&nbsp;seq: 0\
-&nbsp;&nbsp;stamp: {secs: 0, nsecs: 0}\
-&nbsp;&nbsp;frame_id: ''\
-name: ['']\
-position: [0]\
-velocity: [0]\
-effort: [0]"\
-desc:\
-name (name of the joint to be moved)\
-position (motion position of the joint to be moved)
 
 **Link Part Files**
 
